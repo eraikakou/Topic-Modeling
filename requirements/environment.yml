@@ -8,3 +8,7 @@ dependencies:
   - pip:
       - notebook==6.4.11
       - google-play-scraper==1.1.0
+      - plotly==5.8.0
+      - pyspellchecker==0.6.3
+      - gensim==4.2.0
+      - nltk==3.7
