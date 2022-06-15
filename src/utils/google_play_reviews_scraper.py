@@ -4,8 +4,10 @@ from google_play_scraper import Sort, reviews_all
 
 if __name__ == '__main__':
 
-    mobile_apps_ids = ["com.ubs.swidKXJ.android", "com.csg.cs.dnmb"]
-    files_names = ["ubs-mobile-app-reviews.csv", "credit-suisse-mobile-app-reviews.csv"]
+    #mobile_apps_ids = ["com.ubs.swidKXJ.android", "com.csg.cs.dnmb"]
+    mobile_apps_ids = ["com.revolut.revolut"]
+    files_names = ["revolut-mobile-app-reviews.csv"]
+    #files_names = ["ubs-mobile-app-reviews.csv", "credit-suisse-mobile-app-reviews.csv"]
     for index, mobile_app in enumerate(mobile_apps_ids):
         us_reviews = reviews_all(
             mobile_app,
